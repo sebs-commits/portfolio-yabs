@@ -5,8 +5,6 @@ defaultContentLanguageInSubdir: false
 title: "Sebastian's Portfolio Blog Thing"
 theme: "hugo-narrow"
 
-
-
 hasCJKLanguage: true
 enableEmoji: true
 
@@ -15,15 +13,6 @@ permalinks:
   projects: /projects/:slug/
   pages: /:slug/
 
-# pagination
-pagination:
-  pagerSize: 6
-  path: "page"
-
-# 分类法配置
-taxonomies:
-  category: categories
-  tag: tags
 
 markup:
   tableOfContents:

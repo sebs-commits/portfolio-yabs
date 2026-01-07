@@ -1,7 +1,6 @@
 title: "Sebastian David"
 subtitle: "Your Tagline"
 github: "sebs-commits"
-twitter: ""
 favicon:
   svg: "/images/astronaut.png" 
 
@@ -14,7 +13,7 @@ header:
   # UI Components Control (header controls)
   showThemeSwitch: true      # Set to false to hide theme style switcher (palette icon)
   showDarkModeSwitch: true   # Set to false to hide dark mode switcher (sun/moon icon)
-  showLanguageSwitch: false   # Set to false to hide language switcher
+  showLanguageSwitch: true   # Set to false to hide language switcher
   languageSwitchMode: "dropdown"  # Language switch mode: "dropdown" (show panel) or "cycle" (direct cycle)
 
 # Dock display mode
@@ -87,8 +86,6 @@ home:
     - page-content
     - recent-posts
     - featured-projects.html
-
-
 
 
 # Post configuration

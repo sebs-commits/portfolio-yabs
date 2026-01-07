@@ -1,43 +1,31 @@
-# main:
-#   - name: nav.blogs
-#     pageRef: /blogs
-#     weight: 20
-#     params:
-#       icon: posts
-#   - name: nav.projects
-#     pageRef: /projects
-#     weight: 25
-#     params:
-#       icon: projects
-#   - name: nav.guides
-#     pageRef: /guides
-#     weight: 30
-#     params:
-#       icon: categories
-
 main:
-  - name: nav.posts
-    pageRef: /posts
+  - name: Projects
+    pageRef: /projects
+    weight: 19
+    params:
+      icon: projects
+  - name: Blogs
+    pageRef: /blogs
     weight: 20
     params:
       icon: posts
-  - name: nav.projects
-    pageRef: /projects
-    weight: 25
+
+
+# footer with links
+# TODO: Update URLs
+social:
+  - name: GitHub
+    url: https://github.com/sebs-commits
+    weight: 10
     params:
-      icon: projects
-  - name: nav.categories
-    pageRef: /categories
+      icon: github
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/sebastian-d-3ab39119b
+    weight: 20
+    params:
+      icon: linkedin
+  - name: Email
+    url: mailto:contact@sebdavid.com"
     weight: 30
     params:
-      icon: categories
-  - name: nav.tags
-    pageRef: /tags
-    weight: 40
-    params:
-      icon: tags
-  - name: nav.archives
-    pageRef: /archives
-    weight: 50
-    params:
-      icon: archive
+      icon: email
