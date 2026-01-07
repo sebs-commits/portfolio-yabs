@@ -1,0 +1,104 @@
+title: "Sebastian David"
+subtitle: "Your Tagline"
+github: "sebs-commits"
+twitter: ""
+favicon:
+  svg: "/images/astronaut.png" 
+
+# Header configuration (modularized)
+header:
+  sticky: true  # Enable sticky navigation bar
+  logo:
+    image: "/images/astronaut.png"  # Logo path relative to static folder, leave empty to use site title first letter
+    link: "/"  # Click to home page
+  # UI Components Control (header controls)
+  showThemeSwitch: true      # Set to false to hide theme style switcher (palette icon)
+  showDarkModeSwitch: true   # Set to false to hide dark mode switcher (sun/moon icon)
+  showLanguageSwitch: false   # Set to false to hide language switcher
+  languageSwitchMode: "dropdown"  # Language switch mode: "dropdown" (show panel) or "cycle" (direct cycle)
+
+# Dock display mode
+# Options: "scroll" (show on scroll up), "always" (always visible), "float" (floating button)
+dock: "scroll"
+
+# Color Scheme
+colorScheme: "default"
+themes:
+  default:
+    name: "Default"
+    order: 1
+  claude:
+    name: "Claude"
+    order: 2
+  bumblebee:
+    name: "Bumblebee"
+    order: 3
+  emerald:
+    name: "Emerald"
+    order: 4
+  nord:
+    name: "Nord"
+    order: 5
+  sunset:
+    name: "Sunset"
+    order: 6
+  abyss:
+    name: "Abyss"
+    order: 7
+  dracula:
+    name: "Dracula"
+    order: 8
+  amethyst:
+    name: "Amethyst"
+    order: 9
+  slate:
+    name: "Slate"
+    order: 10
+  twitter:
+    name: "Twitter"
+    order: 11
+
+# My information
+author:
+  name: "Sebastian David"
+  title: "Sebastian's Portfolio Blog Thing"
+  description: "lorem ipsum goes here"
+  avatar: "/images/avatar.svg"
+  social:
+    - name: "GitHub"
+      url: "https://github.com/sebs-commits"
+      icon: "github"
+    - name: "Email"
+      url: "mailto:contact@sebdavid.com"
+      icon: "email"
+    - name: "LinkedIn"
+      url: "https://www.linkedin.com/in/sebastian-d-3ab39119b"
+      icon: "linkedin"
+
+# Home page configuration
+home:
+  recentPostsCount: 5  # Number of recent posts to show on the home page
+
+  # Content order configuration - customize the order of home page sections
+  # Available sections: author-section, recent-posts, featured-projects, page-content
+  # You can add your custom content by creating files in `layouts/_partials/home/` folder, then add it to the list
+  contentOrder:
+    - author-section
+    - page-content
+    - recent-posts
+    - featured-projects.html
+
+
+
+
+# Post configuration
+post:
+  showRelated: true           # show related posts
+  relatedPostsCount: 3        # posts number
+  license:
+    show: true
+    author: "Hugo Narrow"
+    name: "CC BY-NC-SA 4.0"
+    description: "This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Please attribute the source, use non-commercially, and maintain the same license."
+    url: "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    displayName: "CC BY-NC-SA 4.0"
