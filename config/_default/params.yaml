@@ -62,7 +62,7 @@ author:
   name: "Sebastian David"
   title: "Sebastian's Portfolio Blog Thing"
   description: "lorem ipsum goes here"
-  avatar: "/images/avatar.svg"
+  avatar: "/images/avatar.PNG"
   social:
     - name: "GitHub"
       url: "https://github.com/sebs-commits"
