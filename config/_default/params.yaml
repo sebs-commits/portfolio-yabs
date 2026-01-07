@@ -67,12 +67,17 @@ author:
     - name: "GitHub"
       url: "https://github.com/sebs-commits"
       icon: "github"
-    - name: "Email"
-      url: "mailto:contact@sebdavid.com"
-      icon: "email"
     - name: "LinkedIn"
       url: "https://www.linkedin.com/in/sebastian-d-3ab39119b"
       icon: "linkedin"
+    - name: "Resume"
+      url: "/files/Sebastian_David_Resume.pdf"
+      icon: "file-text"
+    - name: "Email"
+      url: "mailto:contact@sebdavid.com"
+      icon: "email"
+    
+    
 
 # Home page configuration
 home:
@@ -94,7 +99,7 @@ post:
   relatedPostsCount: 3        # posts number
   license:
     show: true
-    author: "Hugo Narrow"
+    author: "Sebastian David"
     name: "CC BY-NC-SA 4.0"
     description: "This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Please attribute the source, use non-commercially, and maintain the same license."
     url: "https://creativecommons.org/licenses/by-nc-sa/4.0/"
