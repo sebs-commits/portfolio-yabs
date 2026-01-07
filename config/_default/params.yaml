@@ -21,7 +21,7 @@ header:
 dock: "scroll"
 
 # Color Scheme
-colorScheme: "default"
+colorScheme: "sunset"
 themes:
   default:
     name: "Default"
@@ -60,8 +60,8 @@ themes:
 # My information
 author:
   name: "Sebastian David"
-  title: "Sebastian's Portfolio Blog Thing"
-  description: "lorem ipsum goes here"
+  title: "Looking for my first tech role btw!"
+  description: "Helloo, welcome to my corner of the internet. Im a software engineering student who spends way too much time on homelab projects. This is where I write up what Im working on, what breaks, and what I learn."
   avatar: "/images/avatar.PNG"
   social:
     - name: "GitHub"
